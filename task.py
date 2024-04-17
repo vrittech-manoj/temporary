@@ -11,6 +11,7 @@ if check == True:
     print(" it is integer")
 else:
     print("it is string")
+    
 #WAP to take age from people , if  age <18 then print "you can not vote" if age is greter than 18 print "you can vote"
 #WAP to print below format
     # <12 :"you are child hood"
