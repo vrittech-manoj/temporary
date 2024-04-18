@@ -27,6 +27,10 @@ while a<20:
     a = a + 1
     
 #WAP to print odd and even like "5 is odd", "6 is even" upto 20
+#wap to check input number is prime number or not
+#wap to print all prime number upto 50 (while,for loop)
+#write examples for all string methods  with description.
+
 
 
 
