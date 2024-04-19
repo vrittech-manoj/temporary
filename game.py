@@ -2,9 +2,18 @@ wap to make a game in which a random number should be generated from 0 to 100, w
 user can input their guess number untill match exact number.
 and score should be number of thime he guessed .(more guessed number bad in performance, less guessed number more tilented)
 
+"""
+import random
+random_number = random.randint(1, 100)
+
+"""
+
+
 start
 
-random_number = generate_random_number using rand function in python
+import random
+random_number = random.randint(1, 100)
+# random_number = generate_random_number using rand function in python
 
 guessed_time = 1
 while True:
