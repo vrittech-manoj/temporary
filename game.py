@@ -24,9 +24,9 @@ while True:
         break
 
     elif user_input_guessed_number > random_number:
-        print(" just above than your input ")
+        print("hints. just above than your input ")
     else:
-        print(" just less than your input ")
+        print("hints. just less than your input ")
         
     guessed_time = guessed_time + 1
 
