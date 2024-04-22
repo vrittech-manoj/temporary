@@ -1,0 +1,36 @@
+#find out top 20 python packages and explain.
+#WAP to enter some topic and extract data from wekipedia and print.
+#WAP to make calculator
+    #->Enter first number
+    #->Enter operator(+,-,*)
+    #->Enter second number
+
+    hints
+        >>> f = 2
+        >>> s = 5
+        >>> o = '+'
+        >>> if o  == '+':
+        ...     Addition(f,s)
+
+#WAP to take user input bs year and convert it into AD(2081,2024=57,BS-57 = AD)
+#WAP to make a love calculator(boy = "ram",girl = "sita")<100%,>1%
+#WAP to make passwords dictionary
+
+for,condition,
+letters = "abcdef"
+combination = "a"
+"b"
+"c"
+"d"
+"e"
+"f"
+"ab"
+"ac"
+"abc"....combination
+
+#better if  passwords store in password.text file
+
+
+
+
+
