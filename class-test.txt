@@ -1,0 +1,28 @@
+CLASS TEST
+
+Variables:
+    Program to swap two variables without using a temporary variable,and using temporary variable.
+    Program to find the area of a rectangle given its length and width.
+    Write a program that takes two numbers as input and prints their average.
+    Create a program that converts temperature from Celsius to Fahrenheit.
+Operators:
+    Program to calculate the sum, difference, product, and quotient(/) of two numbers entered by the user.
+    Program to check if a given number is even or odd.(%)
+Conditions:
+    Program to find the maximum and minimum numbers from given number [46,2,90,55,34,23,88].
+    Program to check if a student has passed or failed based on their exam score.
+    Create a program to check if a given year is a leap year.
+    Write a program to determine the largest of three numbers using nested if-else statements
+    Create a program to check if a given character is a vowel or a consonant.
+Loops:
+    Program to print the multiplication table of a given number.
+    Write a program to print the Fibonacci sequence up to a specified number of terms.
+    Program to find the factorial of a number using a while loop.
+    Create a program to find the sum of all even numbers between 1 and 100 using a for loop.
+    Write a program to find the second largest number in a list.
+Lists:
+    Program to find the sum of all elements in a list.
+    Program to remove duplicates from a list.
+Dictionaries:
+    Program to create a dictionary of students and their corresponding marks in a subject.
+    Program to merge two dictionaries.
