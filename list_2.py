@@ -6,10 +6,14 @@
 # doNothingwithValue(a)
 # print(a)
 
-def doNothingwithValue(value):
-    return 897
+# def doNothingwithValue(value):
+#     return 897
 
-a = 9
-a = doNothingwithValue(a)
-print(a)
+# a = 9
+# a = doNothingwithValue(a)
+# print(a)
+
+numbers = [2,545,23,92,4,76]
+numbers.sort()
+print(numbers)
 

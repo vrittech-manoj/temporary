@@ -24,7 +24,8 @@ for i in letter:
 print(passwordD_list)
 
 
-
+WAP to convert ["23","45,"12","54"] into [23,45,12,54] using for loop #class task
+first_list = ["23","45,"12","54"] 
 
 
 
