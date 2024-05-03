@@ -1,0 +1,7 @@
+Rahul =  Software Engineer
+Adu = Web Developer(ML)
+GP = (self company)
+sange = Web Development(backend)
+Anusha = Full Stack Developer
+
+
