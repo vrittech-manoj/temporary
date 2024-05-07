@@ -1,0 +1,5 @@
+WAP to read data from files
+WAP to store password generated in files
+WAP to crupt files
+WAP to copy video from one drive to another drive using file manipulation(share-it....)
+WAp to store secrete code into image.

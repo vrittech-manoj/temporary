@@ -1,5 +1,4 @@
 CLASS TEST
-
 Variables:
     Program to swap two variables without using a temporary variable,and using temporary variable.
     Program to find the area of a rectangle given its length and width.
