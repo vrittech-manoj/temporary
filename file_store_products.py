@@ -1,10 +1,9 @@
 
-file_name =  "products_datasets.txt"
 
 def search():
     search_keyword = input("what to search ? #>>>...")
     print(f"searchin {search_keyword} .... ")
-    file_obj = open(file_name,"r")
+    file_obj = open("products_datasets.txt","r")
     total_lines = file_obj.readlines()
     for line in total_lines:
         if search_keyword in line:
@@ -14,7 +13,6 @@ def search():
             product_brand = product[1]
             product_price = product[2]
             print(f"prouct name:{product_name}  product_brand:{product_brand}   product_price:{product_price}")
-
 
 def display():
     print("""
@@ -32,5 +30,15 @@ def display():
 while True:
     display()
     menu_type =  int(input("Please Enter#>>>..."))
-    if menu_type  == 3:
+    if menu_type == 1:
+        # storeProduct() #please make  your own logic
+        pass
+    elif menu_type == 2:
+        # displayProducts() #please make  your own logic
+        pass
+    elif menu_type  == 3:
         search()
+    elif menu_type == 4:
+        # deleteProduct() #please make  your own logic
+        pass 
+    
