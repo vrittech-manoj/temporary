@@ -1,5 +1,3 @@
-
-
 def search():
     search_keyword = input("what to search ? #>>>...")
     print(f"searchin {search_keyword} .... ")
@@ -23,10 +21,10 @@ def display():
     type 2 for display products
     type 3 for search products
     type 4 for delete products
+
         
     **************************************************"""
     )
-
 while True:
     display()
     menu_type =  int(input("Please Enter#>>>..."))
