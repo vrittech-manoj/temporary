@@ -1,0 +1,3 @@
+dell-vostro,dell,45000
+mac-23,apple,98564
+oppo-mobile,oppo,3478
