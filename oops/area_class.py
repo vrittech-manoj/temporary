@@ -15,7 +15,7 @@ class Area:
 
 for i in range(4):
     length = int(input("Enter length#: "))
-    breadth = int(input("Enter breaddth: "))
+    breadth = int(input("Enter breadth: "))
     area_obj = Area(length,breadth)
     area_obj.calculateRectangle()
     area_obj.calculateSquare()
