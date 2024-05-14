@@ -1,0 +1,9 @@
+make a class Animal and initialize variable to Animal constructor base="Animal"
+and make their child Cat class
+and invoke parent constructor
+
+cat_obj = Cat("tiger")
+cat_obj.Print() #Print is Cat class property(function) "this is tiger"
+cat_obj.Base() #Base is parent function which print "tiger base is Animal"
+
+
