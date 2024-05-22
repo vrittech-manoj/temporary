@@ -1,0 +1,38 @@
+<html>
+    <button onmouseover="styleChange()" onmouseout="styleChangeSmall()" id = "button1">click me</button>
+    <form>
+        <select onchange="hackFun(this.value)" id="provience">
+            <option>Bagmati </option>
+            <option>Koshi </option>
+            <option>provience 5 </option>
+        </select>
+    </form>
+    <script>
+
+        function hackFun(value){
+                alert("you have  changed to "+value);        
+        }
+
+        function styleChange(){
+            document.getElementById("button1").style = "color:red;font-size:55px";
+        }
+        function styleChangeSmall(){
+            provience_element = document.getElementById("provience")
+            alert(provience_element.value)
+            document.getElementById("button1").style = "color:green;font-size:20px";    
+            document.getElementById("button1").innerHTML = "this is changed";
+        }
+    </script>
+
+
+
+</html>
+
+
+<!-- #make a web page where 4 button.
+if user click each button then there must be body backgroud color change,
+like as
+button 1 -> body bg color red 
+button 2 -> body bg color green
+button 3 -> body bg color blue
+button 4 -> body bg color red -->
