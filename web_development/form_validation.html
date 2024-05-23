@@ -9,6 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+        .error_class{
+            color: red;
+        }
+        .success_class{
+            color: green;
+        }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,10 +59,10 @@
       <br>
       <br>
       <center><h1>Form Validation</h1>
-      <p>email is in proper way</p>
-      <p>password length is greater than 8</p>
-      <p>password includes special characters</p>
-      <p>password includes number</p>
+      <p class="error_class">email is in proper way</p>
+      <p class="success_class">password length is greater than 8</p>
+      <p class="error_class">password includes special characters</p>
+      <p class="error_class">password includes number</p>
     </center>
       <div class="container mt-4">
         <div class="row">
