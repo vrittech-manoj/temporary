@@ -1,0 +1,31 @@
+#WAP/Algorithm which can monitor as traffic ,
+# if any cars/buses etc goes against trafic rule then must fine ammount from their bank account
+# no helmet fine charges = 200
+# high speed fine charges = 350
+# .....rules
+
+# detect car/buses number.
+# find detail of car/buses with their vehicles number
+# and reduces ammount from his bank account.
+
+class TrafficControl:
+
+    def getSpeedVehicle(self):
+        return 50
+    
+    def getVehicleDetail(self):
+        return {"owner_name":"ram","account_num":00823667413,"mobile_number":9808908}
+    
+    def isOk(self): #if vehicle goes against trafic rule then return false else return True
+        return False
+    
+    def Fine(self): #reduces or  take  fine from owner bank account
+        pass
+
+    
+
+while True:
+    vehicle_obj = TrafficControl("2340") #argment is vehicle number
+    if vehicle_obj.isOk() == False:
+        vehicle_obj.Fine()
+    
