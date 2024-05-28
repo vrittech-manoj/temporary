@@ -14,7 +14,13 @@ class TrafficControl:
         self.monitor()
 
     def getSpeedVehicle(self):
-        return 50
+        return random_speed < 200
+    
+    def detectHelmet(self):
+        return True/False random 
+
+    def detectSheatbelt(self)
+        return True/False random 
     
     def getVehicleDetail(self):
         return {"vehicle_number":self.vehicle_number,"vehicle-name":self.vehicle_name,"owner_name":"ram","account_num":"00823667413","mobile_number":9808908}
@@ -33,4 +39,20 @@ while True:
     vehicle_obj = TrafficControl() #argment is vehicle number
     if vehicle_obj.isOk() == False:
         vehicle_obj.Fine()
-    
+
+
+# car obj loop create
+# detect vehicle number and vehicle type
+# if vehicle type in ['motorcycle']
+#     helmetdetect(true,false)
+# elif vehicle_type in ['bus,truck','car']
+#     check sheatbelt (true,false)
+
+# check speed (true,false) 
+
+# if speed false:
+#     self.voilation type = highes speed 
+#     self.total_fine = self.total_fine + speed_voilation_fine
+
+
+
