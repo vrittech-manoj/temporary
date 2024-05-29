@@ -15,6 +15,7 @@ class Triangle(Ploygon):
 
 
 triangle_obj = Triangle()
+triangle_obj.noofsides()
 triangle_obj.area()
 
 
