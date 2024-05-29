@@ -9,7 +9,7 @@
 
 class TrafficControl:
     def __init__(self) -> None:
-        self.helmet_fine = 250
+        self.__helmet_fine = 250
         self.speed_fine =  350
         self.monitor()
 
