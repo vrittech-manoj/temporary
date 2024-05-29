@@ -2,7 +2,21 @@
 
 #)overloading
 
+# in c++,java
+# def add(a,b):
+#     return  a+b
 
+
+# def add(a,b,c):
+#     return  a+b+c
+
+
+# def add(a,b,c,d):
+#     return  a+b+c+d
+
+# add(2,8,9,76)
+
+# in pytho
 # def sum(a,b,c=0):
 #     return a+b+c
 
@@ -11,7 +25,7 @@
 
 
 
-# #)overriding
+#)overriding
 # class Calculator:
     
 #     def add(self,a,b):
@@ -31,21 +45,21 @@
 
 
 class Animal:
-    def make_sound():
+    def make_sound(self):
         print("default animal sound")
 
 class Cat(Animal):
-    def make_sound():
+    def make_sound(self):
         print("meu meu !!.")
 
 class Dog(Animal):
-     def make_sound():
+     def make_sound(self):
         print("bho bho !!.")
 
 class Ant(Animal):
     pass
 
-cat_obj = Ant()
+cat_obj = Cat()
 cat_obj.make_sound()
 
 
